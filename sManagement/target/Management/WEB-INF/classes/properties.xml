@@ -1,0 +1,10 @@
+ select * from yuanxi,stu where stu.stuID like '%17%' and yuanxi.xiID like '%13%' ;  院系学生查询 17届13为信工院   所有学生
+ select * from stu where stu.ID like '%17%' ;  17届   所有学生
+ 
+ select * from yuanxi,stu where yuanxi.xiID like '%1301%' ;  院系学生查询 13为信工院01系   所有学生
+ 
+ 
+ select * from stu,score where stu.stuID like '%049%' ;  学生成绩查询 049为一个学生
+ 
+ 
+ 
